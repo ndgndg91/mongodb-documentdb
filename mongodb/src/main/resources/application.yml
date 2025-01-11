@@ -6,5 +6,8 @@ spring:
       uri: ${MONGO_CONN_URI:mongodb://appuser:apppassword@localhost:27017/notification}
 
 logging:
+  structured:
+    format:
+      console: ecs
   level:
     org.springframework.data.mongodb: DEBUG
