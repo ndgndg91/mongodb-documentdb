@@ -3,7 +3,7 @@ spring:
     name: mongodb
   data:
     mongodb:
-      uri: mongodb://appuser:apppassword@localhost:27017/notification
+      uri: ${MONGO_CONN_URI:mongodb://appuser:apppassword@localhost:27017/notification}
 
 logging:
   level:
