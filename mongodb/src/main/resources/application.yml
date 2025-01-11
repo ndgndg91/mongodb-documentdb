@@ -8,6 +8,6 @@ spring:
 logging:
   structured:
     format:
-      console: ecs
+      console: logstash
   level:
     org.springframework.data.mongodb: DEBUG
