@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mongodb
+  data:
+    mongodb:
+      uri: mongodb://appuser:apppassword@localhost:27017/notification
+
+logging:
+  level:
+    org.springframework.data.mongodb: DEBUG
