@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: documentdb
+  data:
+    mongodb:
+      uri: ${MONGO_CONN_URI:mongodb://<username>:<password>@localhost:27017/notification?ssl=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false&tlsAllowInvalidHostnames=true&directConnection=true}
+      ssl:
+        enabled: true
+        bundle: global-bundle.pem
+      username: username
+      database: notification
+      password: password
+
+logging:
+  structured:
+    format:
+      console: logstash
+  level:
+    org.springframework.data.mongodb: DEBUG
