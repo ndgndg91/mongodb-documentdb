@@ -1,4 +1,4 @@
-package com.ndgndg91.mongodbdocumentdb.notification
+package com.ndgndg91.mongodb.notification
 
 import org.bson.types.ObjectId
 import org.springframework.data.mongodb.core.mapping.Document

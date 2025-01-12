@@ -1,4 +1,4 @@
-package com.ndgndg91.mongodbdocumentdb.notification
+package com.ndgndg91.mongodb.notification
 
 data class Notification(
     val title: String,

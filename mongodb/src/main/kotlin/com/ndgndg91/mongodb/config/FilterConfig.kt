@@ -1,4 +1,4 @@
-package com.ndgndg91.mongodbdocumentdb.config
+package com.ndgndg91.mongodb.config
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean
 import org.springframework.context.annotation.Bean

@@ -1,4 +1,4 @@
-package com.ndgndg91.mongodbdocumentdb
+package com.ndgndg91.mongodb
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

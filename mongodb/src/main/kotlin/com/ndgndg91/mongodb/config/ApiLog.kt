@@ -1,4 +1,4 @@
-package com.ndgndg91.mongodbdocumentdb.config
+package com.ndgndg91.mongodb.config
 
 data class ApiLog(
     val method: String,
