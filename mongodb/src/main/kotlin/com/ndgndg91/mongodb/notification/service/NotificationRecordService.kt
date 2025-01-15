@@ -1,8 +1,8 @@
 package com.ndgndg91.mongodb.notification.service
 
-import com.ndgndg91.mongodb.notification.Notification
-import com.ndgndg91.mongodb.notification.NotificationRecord
-import com.ndgndg91.mongodb.notification.NotificationRecordRepository
+import com.ndgndg91.domain.Notification
+import com.ndgndg91.domain.NotificationRecord
+import com.ndgndg91.domain.NotificationRecordRepository
 import org.springframework.scheduling.annotation.Async
 import org.springframework.stereotype.Service
 import java.time.LocalDateTime

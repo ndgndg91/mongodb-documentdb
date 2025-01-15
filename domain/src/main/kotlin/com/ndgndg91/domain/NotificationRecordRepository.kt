@@ -1,4 +1,4 @@
-package com.ndgndg91.mongodb.notification
+package com.ndgndg91.domain
 
 import org.bson.types.ObjectId
 import org.springframework.data.mongodb.repository.MongoRepository
