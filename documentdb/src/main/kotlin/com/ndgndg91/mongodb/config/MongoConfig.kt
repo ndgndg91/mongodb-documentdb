@@ -29,6 +29,7 @@ import org.springframework.data.mongodb.core.convert.DefaultMongoTypeMapper
 import org.springframework.data.mongodb.core.convert.MappingMongoConverter
 import org.springframework.data.mongodb.core.convert.MongoCustomConversions
 import org.springframework.data.mongodb.core.mapping.MongoMappingContext
+import org.springframework.data.mongodb.repository.config.EnableMongoRepositories
 import java.security.KeyStore
 import java.security.cert.Certificate
 import java.security.cert.CertificateFactory
@@ -36,6 +37,7 @@ import java.security.cert.X509Certificate
 import java.util.concurrent.TimeUnit
 
 @Configuration
+@EnableMongoRepositories(basePackages = ["com.ndgndg91.domain"])
 class MongoConfig(
     private val mongoProperties: MongoProperties,
     private val mongoConnectionDetails: MongoConnectionDetails,
