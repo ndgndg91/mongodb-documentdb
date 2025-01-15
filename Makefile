@@ -2,9 +2,7 @@
 MODULE = mongodb
 
 dockerBuild:
-	./gradlew $(MODULE):clean && ./gradlew $(MODULE):assemble && cd mongodb && docker build --platform linux/arm64 -t $(MODULE) .
+	./gradlew $(MODULE):clean && ./gradlew $(MODULE):assemble && cd $(MODULE) && docker build --platform linux/arm64 -t $(MODULE) .
 
 dockerRun:
     docker run -it -p 8080:8080 $(MODULE)
-# amdDockerBuild:
-#     ./gradlew $(MODULE):clean && ./gradlew $(MODULE):assemble && cd mongodb && docker build -t $(MODULE) .
